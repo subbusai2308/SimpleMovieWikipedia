@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  function getMovieName() {
+    var data = document.getElementById("movie").value;
+    console.log(typeof movie);
+    localStorage.setItem("movie", data);
+  }
+</script>
+
+<body>
+  <div class="containers" id="new">
+    <h1 class="myheading">Enter Movie name</h1>
+    <form action="MovieList.html">
+      <input type="text" id="movie" name="movie" placeholder="Movie name..">
+      <input type="submit" value="Submit" onclick="getMovieName();">
+    </form>
+  </div>
+
+</body>
+
+</html>
