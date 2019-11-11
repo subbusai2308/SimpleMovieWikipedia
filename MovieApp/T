@@ -1,0 +1,3 @@
+This Movie App require a OMDb Api Key
+Request the OMDb Api key and add it in request.open('GET', 'http://www.omdbapi.com/?apikey=[YourApiKey]&s=' + localStorage.getItem("movie"), true) in MovieListApi
+and in request.open('GET', 'http://www.omdbapi.com/?apikey=[YourApiKey]&t=' + localStorage.getItem("movie_name"), true) in MoviePoltApi JavaScript File(Sorry for the inconvenience)
